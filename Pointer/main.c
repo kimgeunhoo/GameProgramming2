@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include "lecture.h"
 /*
 	작성일: 2025-03-13
 	작성자: 김근호
@@ -74,14 +75,16 @@ void SwapPreview(int numA, int numB) {
 void Swap(int* numA, int* numB) {
 	int* temp; // 데이터 임시 보관 함수
 	temp = *numA; // A temp에 임시 보관
-	numA = *numB; // A가 B의 값으로 변경
-	numB = temp; // B가 A의 값으로 변경
+	*numA = *numB; // A가 B의 값으로 변경
+	*numB = temp; // B가 A의 값으로 변경
 
 	// 미리 보기 형식
 	printf("Swap 할 시 결과값\n");
 	printf("변경된 numA의 값: %d\n", numA);
 	printf("변경된 numB의 값: %d\n", numB);
 }
+
+
 
 int main() 
 {
@@ -180,7 +183,7 @@ int main()
 	printf("현재 numA, numB의 값\n");
 	printf("numA : %d, numB : %d\n", numA, numB);
 
-	Swap(numA, numB);
+	Swap(&numA, &numB);
 
 	printf("현재 numA, numB의 값\n");
 	printf("numA : %d, numB : %d\n", numA, numB);

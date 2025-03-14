@@ -1,0 +1,10 @@
+﻿  PointerOperator.c
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch2\PointerOperator.c(16,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch2\PointerOperator.c(16,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch2\PointerOperator.c(17,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch2\PointerOperator.c(17,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch2\PointerOperator.c(21,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch2\PointerOperator.c(21,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch2\PointerOperator.c(22,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch2\PointerOperator.c(22,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  Ch2.vcxproj -> C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Pointer\x64\Debug\Ch2.exe
