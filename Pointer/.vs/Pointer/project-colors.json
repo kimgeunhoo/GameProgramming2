@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b3cba3fc-6e3f-4409-b849-cadf163de29c": {
+      "ProjectGuid": "b3cba3fc-6e3f-4409-b849-cadf163de29c",
+      "DisplayName": "PlayerInput",
+      "ColorIndex": 0
+    },
+    "c66d2865-2da0-4bd1-bf27-2c4f74c7f46d": {
+      "ProjectGuid": "c66d2865-2da0-4bd1-bf27-2c4f74c7f46d",
+      "DisplayName": "Ch2",
+      "ColorIndex": 1
+    },
+    "b9c1cc89-6a7d-4a19-be16-912416dce9b2": {
+      "ProjectGuid": "b9c1cc89-6a7d-4a19-be16-912416dce9b2",
+      "DisplayName": "Pointer",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

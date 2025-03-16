@@ -1,4 +1,14 @@
-﻿  main.c
-  playerInput.c
-  코드를 생성하고 있습니다...
-  PlayerInput.vcxproj -> C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Pointer\x64\Debug\PlayerInput.exe
+﻿  playerInput.c
+C:\Users\bungj\Desktop\GameProgramming2\PlayerInput\playerInput.c(5,23): warning C4047: '함수': 'int'의 간접 참조 수준이 'int **'과(와) 다릅니다.
+C:\Users\bungj\Desktop\GameProgramming2\PlayerInput\playerInput.c(5,15): warning C4024: 'setCursorPos': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\bungj\Desktop\GameProgramming2\PlayerInput\playerInput.c(5,33): warning C4047: '함수': 'int'의 간접 참조 수준이 'int **'과(와) 다릅니다.
+C:\Users\bungj\Desktop\GameProgramming2\PlayerInput\playerInput.c(5,25): warning C4024: 'setCursorPos': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+C:\Users\bungj\Desktop\GameProgramming2\PlayerInput\playerInput.c(11,24): warning C4047: '함수': 'int'의 간접 참조 수준이 'int **'과(와) 다릅니다.
+C:\Users\bungj\Desktop\GameProgramming2\PlayerInput\playerInput.c(11,16): warning C4024: 'setCursorPos': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\bungj\Desktop\GameProgramming2\PlayerInput\playerInput.c(11,34): warning C4047: '함수': 'int'의 간접 참조 수준이 'int **'과(와) 다릅니다.
+C:\Users\bungj\Desktop\GameProgramming2\PlayerInput\playerInput.c(11,26): warning C4024: 'setCursorPos': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+C:\Users\bungj\Desktop\GameProgramming2\PlayerInput\playerInput.c(36,23): warning C4047: '함수': 'int'의 간접 참조 수준이 'int **'과(와) 다릅니다.
+C:\Users\bungj\Desktop\GameProgramming2\PlayerInput\playerInput.c(36,15): warning C4024: 'setCursorPos': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\Users\bungj\Desktop\GameProgramming2\PlayerInput\playerInput.c(36,33): warning C4047: '함수': 'int'의 간접 참조 수준이 'int **'과(와) 다릅니다.
+C:\Users\bungj\Desktop\GameProgramming2\PlayerInput\playerInput.c(36,25): warning C4024: 'setCursorPos': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+  PlayerInput.vcxproj -> C:\Users\bungj\Desktop\GameProgramming2\Pointer\x64\Debug\PlayerInput.exe
