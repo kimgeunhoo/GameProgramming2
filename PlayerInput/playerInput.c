@@ -2,30 +2,31 @@
 
 void GetInput(int* playerX, int* playerY) {
 
-	setCursorPos(&playerX, &playerY);
+	setCursorVisible(false);
+	setCursorPos(*playerX, *playerY);
 	printf("♥");
 
 	if (_kbhit())
 	{
-		setCursorVisible(false);
-		setCursorPos(&playerX, &playerY);
+		
+		setCursorPos(*playerX, *playerY);
 		printf("  ");
 
 		if (GetAsyncKeyState(VK_LEFT))  // 왼쪽 화살표 입력 시
 		{
-			playerX -= 2;
+			*playerX -= 2;
 		}
 		if (GetAsyncKeyState(VK_RIGHT))  // 오른쪽 화살표 입력 시
 		{
-			playerX += 2;
+			*playerX += 2;
 		}
 		if (GetAsyncKeyState(VK_UP))  // 위쪽 화살표 입력 시
 		{
-			playerY -= 1;
+			*playerY -= 1;
 		}
 		if (GetAsyncKeyState(VK_DOWN))  // 아래쪽 화살표 입력 시
 		{
-			playerY += 1;
+			*playerY += 1;
 		}
 		else 
 		{
@@ -33,7 +34,7 @@ void GetInput(int* playerX, int* playerY) {
 		}
 		
 	}
-	setCursorPos(&playerX, &playerY);
+	setCursorPos(*playerX, *playerY);
 	printf("♥");
 	Sleep(50);
 }

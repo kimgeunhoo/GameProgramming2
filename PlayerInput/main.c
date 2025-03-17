@@ -1,13 +1,14 @@
 // 무엇을 만들 것인가?
 #include "playerInput.h"
 
+int playerX = 3;
+int playerY = 3;
 
 int main() {
 	
 	while (1)  // 프로그램 계속 실행 시키기
 	{
-		int playerX = 3;
-		int playerY = 3;
+		
 
 		GetInput(&playerX, &playerY);
 		
