@@ -1,2 +1,6 @@
-﻿  main.c
-  Ch3.vcxproj -> C:\Users\bungj\Desktop\GameProgramming2\Pointer\x64\Debug\Ch3.exe
+﻿  input.c
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\input.c(12,6): warning C4013: '_kbhit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  Inventory.c
+  main.c
+  코드를 생성하고 있습니다...
+  Ch3.vcxproj -> C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Pointer\x64\Debug\Ch3.exe
