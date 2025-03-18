@@ -15,7 +15,12 @@
       "ProjectGuid": "b9c1cc89-6a7d-4a19-be16-912416dce9b2",
       "DisplayName": "Pointer",
       "ColorIndex": 2
+    },
+    "2d6d81dd-3733-475b-9f5a-1f03d95ee247": {
+      "ProjectGuid": "2d6d81dd-3733-475b-9f5a-1f03d95ee247",
+      "DisplayName": "Ch3",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }

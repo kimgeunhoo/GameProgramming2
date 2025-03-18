@@ -1,21 +1,2 @@
-﻿  input.c
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\input.c(12,6): warning C4013: '_kbhit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  Inventory.c
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\Inventory.c(3,6): error C2040: 'inventoryPtr': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\Inventory.c(25,15): warning C4047: '=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\Inventory.c(26,2): error C2100: 간접 참조가 잘못되었습니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\Inventory.c(27,21): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\Inventory.c(27,21): warning C4024: 'ShowInventoryCount': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\Inventory.c(29,7): warning C4022: 'free': 실제 매개 변수 1의 포인터가 일치하지 않습니다.
-  main.c
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\main.c(37,6): error C2040: 'inventoryPtr': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\main.c(78,15): warning C4047: '=': 'int'의 간접 참조 수준이 'void *'과(와) 다릅니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\main.c(79,2): error C2100: 간접 참조가 잘못되었습니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\main.c(104,27): error C2100: 간접 참조가 잘못되었습니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\main.c(104,28): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\main.c(104,28): warning C4024: 'IncreaseInventoryCount': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\main.c(108,23): error C2100: 간접 참조가 잘못되었습니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\main.c(108,24): warning C4047: '함수': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\main.c(108,24): warning C4024: 'ShowInventoryCount': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch3\main.c(112,7): warning C4022: 'free': 실제 매개 변수 1의 포인터가 일치하지 않습니다.
-  코드를 생성하고 있습니다...
+﻿  main.c
+  Ch3.vcxproj -> C:\Users\bungj\Desktop\GameProgramming2\Pointer\x64\Debug\Ch3.exe

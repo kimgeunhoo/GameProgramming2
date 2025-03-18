@@ -76,6 +76,7 @@ int main() {
 	SetMemoryAndValue(10);
 
 	inventoryPtr = malloc(sizeof(int));
+	
 	*inventoryPtr = 0;
 
 	// scanf
@@ -93,7 +94,10 @@ int main() {
 	{
 		printf("1_ 인벤토리의 수가 증가된다.\n");
 		printf("2_ 현재 인벤토리의 크기를 열람한다.\n");
-
+		//if (*inventoryPtr == NULL) {
+		//	perror("메모리 할당 실패");
+		//	exit(1);
+		//}
 		int inputNumber = -1;
 		printf("키를 입력해주세요.\n");
 		scanf_s("%d", &inputNumber);
@@ -101,11 +105,11 @@ int main() {
 
 		if (inputNumber == 1)
 		{
-			IncreaseInventoryCount(*inventoryPtr, 4);
+			IncreaseInventoryCount(inventoryPtr, 4);
 		}
 		else
 		{
-			ShowInventoryCount(*inventoryPtr);
+			ShowInventoryCount(inventoryPtr);
 		}
 		
 	}

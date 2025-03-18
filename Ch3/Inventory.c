@@ -17,6 +17,7 @@ void ShowInventoryCount(int* inventory)
 
 void IncreaseInventoryCount(int* inventory, int increaseCount)
 {
+	
 	*inventory += increaseCount;
 }
 
