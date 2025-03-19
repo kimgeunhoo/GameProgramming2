@@ -1,2 +1,2 @@
 ﻿  item.c
-LINK : fatal error LNK1168: C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Pointer\x64\Debug\Ch4.exe을(를) 쓰기용으로 열 수 없습니다.
+  Ch4.vcxproj -> C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Pointer\x64\Debug\Ch4.exe

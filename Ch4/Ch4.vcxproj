@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="item.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="Struct.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="item.h" />
