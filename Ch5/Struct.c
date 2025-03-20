@@ -20,8 +20,9 @@ void StructExample()
 
 	char playerName[10] = "ȫ�浿";
 	Player myplayer = { playerName, playerPos };
+	char playerItem[10] = "item";
 
-	struct Player player = { playerName , playerPos , 1, 'item' };
+	struct Player player = { playerName , playerPos , 1, playerItem };
 	ShowPlayerCurrentPos(player);
 }
 
