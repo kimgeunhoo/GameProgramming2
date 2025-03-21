@@ -1,4 +1,5 @@
 #include "GameUI.h"
+#include "StructPointer.h"
 
 /*
 	구현 목표 : 플레이어의 좌표를 키보드로 부터 입력받아 실행되는 함수를 만들기
@@ -24,7 +25,7 @@ void GameStart()
 		// 3. sleep(100)
 
 		InputPlayerKey(&myPlayer);
-		ShowPlayerInfo(&myPlayer);
+		ShowPlayerInfo(&myPlayer, &weaponItem);
 		Sleep(100);
 
 	}
@@ -64,8 +65,14 @@ void GotoXY(int x, int y)
 
 }
 
-void ShowPlayerInfo(const Player* playerPtr, Item* itemPtr)
+void ShowPlayerInfo(const Player* playerPtr)
 {
+
+	int playerPosX = playerPtr->playerPos.posX;
+	int playerPosY = playerPtr->playerPos.posY;
+
+
+
 	GotoXY(50, 1);				// x 오른쪽 50, y 아래 1
 	printf("플레이어의 정보");
 
@@ -73,13 +80,12 @@ void ShowPlayerInfo(const Player* playerPtr, Item* itemPtr)
 	printf("플레이어의 이름 : %s", playerPtr->playerName);
 
 	GotoXY(50, 4);
-	printf("플레이어의 위치 : {%d, %d}", playerPtr->playerPos.posX, playerPtr->playerPos.posY);
+	printf("플레이어의 위치 : {%d, %d}", playerPosX, playerPosY);
+
+	
 
 	GotoXY(playerPtr->playerPos.posX, playerPtr->playerPos.posY);
 	printf("★");
-	if (playerPtr->playerPos.posX, playerPtr->playerPos.posY && itemPtr->itemPos.posX, itemPtr->itemPos.posY) {
-		GotoXY(50, 6);
-		printf("무기 획득: {%s} \n 무기 레벨: {%d} \n 무기 공격력: {%d}", itemPtr->itemName, itemPtr->itemLevel, itemPtr->itemAttackPt);
-	}
+
 
 }
