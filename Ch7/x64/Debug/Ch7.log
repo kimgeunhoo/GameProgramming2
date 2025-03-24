@@ -1,6 +1,6 @@
-﻿  Player.c
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch7\Player.c(51,20): warning C4047: '=': 'BOOL *'의 간접 참조 수준이 'int'과(와) 다릅니다.
-C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch7\Player.c(77,32): warning C4047: '==': 'BOOL *'의 간접 참조 수준이 'int'과(와) 다릅니다.
-  main.c
+﻿  main.c
+  Player.c
+C:\Users\bungj\Desktop\GameProgramming2\Ch7\Player.c(51,26): warning C4047: '=': 'BOOL *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\bungj\Desktop\GameProgramming2\Ch7\Player.c(75,39): warning C4047: '==': 'BOOL *'의 간접 참조 수준이 'int'과(와) 다릅니다.
   코드를 생성하고 있습니다...
-  Ch7.vcxproj -> C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Pointer\x64\Debug\Ch7.exe
+  Ch7.vcxproj -> C:\Users\bungj\Desktop\GameProgramming2\Pointer\x64\Debug\Ch7.exe
