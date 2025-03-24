@@ -59,8 +59,11 @@ int main() {
 		GoXYCOORD(itemAPos);
 		printf("◎");
 		
+		GoXYCOORD(itemBPos);
+		printf("◎");
 
-		InteractWithItem(&player, &itemA);	// 주소에 데이터가 변경도지 않았다. -> Call by Value, Ref
+		InteractWithItem(&player, &GameItems[0]);	// 주소에 데이터가 변경되지 않았다. -> Call by Value, Ref
+		InteractWithItem(&player, &GameItems[1]);	// 주소에 데이터가 변경되지 않았다. -> Call by Value, Ref
 		//ShowPlayerItemInfo(&itemA);
 		ShowPlayerAllItemInfo(GameItems, 2);
 

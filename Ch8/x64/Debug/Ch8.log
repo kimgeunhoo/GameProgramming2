@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch8\main.c(89,10): warning C4477: 'scanf_s' : 서식 문자열 '%s'에 'char *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'const char *'입니다.
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch8\main.c(89,10): message : 이 인수는 변환 지정자에서 사용됩니다.
+  Ch8.vcxproj -> C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Pointer\x64\Debug\Ch8.exe
