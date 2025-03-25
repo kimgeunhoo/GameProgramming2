@@ -1,0 +1,4 @@
+﻿  main.c
+main.obj : error LNK2005: SwordImage이(가) Item.obj에 이미 정의되어 있습니다.
+main.obj : error LNK2005: ShieldImage이(가) Item.obj에 이미 정의되어 있습니다.
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Pointer\x64\Debug\Ch9.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
