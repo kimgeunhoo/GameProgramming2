@@ -1,3 +1,8 @@
-﻿main.obj : error LNK2005: SwordImage이(가) Item.obj에 이미 정의되어 있습니다.
+﻿  Item.c
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch9\Item.c(9,22): warning C4048: 배열 첨자가 다릅니다. 'char (*)[7]'과(와) 'char (*)[6]'
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Ch9\Item.c(16,22): warning C4048: 배열 첨자가 다릅니다. 'char (*)[7]'과(와) 'char (*)[6]'
+  main.c
+  코드를 생성하고 있습니다...
+main.obj : error LNK2005: SwordImage이(가) Item.obj에 이미 정의되어 있습니다.
 main.obj : error LNK2005: ShieldImage이(가) Item.obj에 이미 정의되어 있습니다.
-C:\Users\bungj\Desktop\GameProgramming2\Pointer\x64\Debug\Ch9.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Pointer\x64\Debug\Ch9.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
