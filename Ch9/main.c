@@ -30,6 +30,8 @@ int main()
 	Item shield;
 	ItemSet(&sword, 1);
 	ItemSet(&shield, 2);
+	printf("무기 공격력 : %d\n", sword.atPoint);
+	printf("방패 방어력 : %d\n", shield.dfPoint);
 	for (int i = 0; i < ITEM_COL; i++) {
 		printf("%s\n", sword.itemImage[i]);
 	}
