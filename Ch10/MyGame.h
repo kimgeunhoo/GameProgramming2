@@ -2,10 +2,25 @@
 
 #include "ConsoleGame.h"
 
+#define ITEM_WIDTH 11
+#define ITEM_HEIGHT 12
+
+char Sword[ITEM_HEIGHT][ITEM_WIDTH + 1];
 // GetAsync키로 이동하는 것
 
 // item.h
 // item 2차원 배열을 가져와서 특정 좌표에 출력하기
+typedef struct _Item {
+	char ItemName;
+	char(*item)[ITEM_WIDTH + 1];
+	COORD pos;
+	int atPoint;
+	GRADE grade;
+}Item;
+
+typedef enum _GRADE {
+	COMMON, UNCOMMON, RARE, UNIQUE
+}GRADE;
 
 // GotoXY
 

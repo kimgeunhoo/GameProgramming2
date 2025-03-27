@@ -44,6 +44,19 @@ BOOL CanMoveStage(char(*stage)[STAGE_WIDTH + 1], COORD playerPos, char exitChara
 	}
 }
 
+COORD PlusCOORD(COORD pos1, COORD pos2)
+{
+	SHORT newPosX = pos1.X + pos2.X;
+	SHORT newPosY = pos1.Y + pos2.Y;
+
+	COORD resultPos = { newPosX , newPosY};
+
+	return resultPos;
+}
+
+// 아이템 끼리 더한다.
+// 스테이지 2개.
+
 void setCursorVisible(bool enable)
 {
 	CONSOLE_CURSOR_INFO cursorInfo;

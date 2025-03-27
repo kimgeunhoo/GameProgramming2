@@ -38,5 +38,17 @@ BOOL CanMoveStage(char(*stage)[STAGE_WIDTH + 1], COORD playerPos, char exitChara
 // 이동하기 
 void NextStage(char(*stage)[STAGE_WIDTH + 1], COORD stagePos);
 
+// COORD x,y 정수로 표현한 구조체(좌표)
+// (1, 2) + (3, 4) = (4, 6)
+
+// COORD pos1;
+// COORD pos2; pos1 + pos2 = (pos1의 x에 접근해서 pos2의 x와 더한다)
+
+COORD PlusCOORD(COORD pos1, COORD pos2);
+
+// (주소로 지정, 변수로 지정)
+// 지역 변수 - {} 중괄호 안에 선언한 변수 지역 변수 '}'
+// 좌표를 생성
+
 void setCursorVisible(bool enable);
 
