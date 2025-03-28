@@ -1,6 +1,42 @@
 #pragma once
 
 #include "ConsoleGame.h"
+#include "Player.h"
+
+void GameStart();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #define ITEM_WIDTH 11
 #define ITEM_HEIGHT 12
@@ -10,6 +46,12 @@ char Sword[ITEM_HEIGHT][ITEM_WIDTH + 1];
 
 // item.h
 // item 2차원 배열을 가져와서 특정 좌표에 출력하기
+
+
+typedef enum _GRADE {
+	COMMON, UNCOMMON, RARE, UNIQUE
+}GRADE;
+
 typedef struct _Item {
 	char ItemName;
 	char(*item)[ITEM_WIDTH + 1];
@@ -18,9 +60,7 @@ typedef struct _Item {
 	GRADE grade;
 }Item;
 
-typedef enum _GRADE {
-	COMMON, UNCOMMON, RARE, UNIQUE
-}GRADE;
+void ShowItem(char(*item)[STAGE_WIDTH + 1], COORD pos);
 
 // GotoXY
 

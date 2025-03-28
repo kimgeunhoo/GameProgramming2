@@ -52,6 +52,9 @@ int main()
 
 	ShowPlayerInfo(&player);
 
+	//COORD itemPos = { 80, 12 };
+	//ShowItem(Sword, itemPos);
+
 	// 플레이어의 다음 위치가 특정 문자인 경우
 
 	if (CanMoveStage(Stage1, tempPos, '@')) // CanMoveStage?
@@ -62,44 +65,11 @@ int main()
 		printf("♥");	// 플레이어 출력
 	}
 
-	COORD itemPos = { 80, 21 };
-	ShowItem(Sword, itemPos);
+	
 	//플레이어의 위치를 이동
 
 	while (true) 
 	{
-		if (_kbhit) {
-			GoToXY(playerX, playerY);
-			printf("  ");
-			// 화살표의 입력을 인식시켜야 함
-
-			if (GetAsyncKeyState(VK_UP) & 0x8000) // 위
-			{
-				playerY -= 1;
-			}
-
-			if (GetAsyncKeyState(VK_DOWN) & 0x8000) // 아래
-			{
-				playerY += 1;
-			}
-
-			if (GetAsyncKeyState(VK_LEFT) & 0x8000) // 왼쪽
-			{
-				playerX -= 1;
-			}
-
-			if (GetAsyncKeyState(VK_RIGHT) & 0x8000) // 오른쪽
-			{
-				playerX += 1;	
-			}
-
-			else
-			{
-				// 그 자리 그대로
-			}
-			GoToXY(playerX, playerY);
-			printf("♥");	// 플레이어 출력
-			Sleep(50);
-		}
+		//SetPlayerInput();
 	}
 }
