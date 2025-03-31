@@ -48,6 +48,10 @@ void GameStart()
 			NextStage(Stage2, stagePos);
 			player.pos = PlusCOORD(playerPos, stagePos);	// 스테이지 이동했을 때, 어디서 시작할 것인가?
 		}
+		if (CanMoveStage(Stage1, playerStagePos, '#')) 
+		{
+
+		}
 
 		// 3. 플레이어의 정보 UI 출력
 		ShowPlayerInfo(&player, UserInterFacePos);

@@ -1,4 +1,6 @@
-﻿  MyGame.c
+﻿  ConsoleGame.c
+  MyGame.c
   Player.c
+  Stage.c
   코드를 생성하고 있습니다...
-  Ch10.vcxproj -> C:\Users\Administrator\Desktop\gameProgramming2\GameProgramming2\Pointer\x64\Debug\Ch10.exe
+  Ch10.vcxproj -> C:\Users\bungj\Desktop\GameProgramming2\Pointer\x64\Debug\Ch10.exe
