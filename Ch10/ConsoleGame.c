@@ -68,6 +68,16 @@ COORD PlusCOORD(COORD pos1, COORD pos2)
 	return resultPos;
 }
 
+COORD Wall(COORD pos1, COORD pos2)
+{
+	SHORT wallPosX = pos1.X;
+	SHORT wallPosY = pos1.Y;
+
+	COORD resultPos = { , };
+
+	return resultPos;
+}
+
 
 // 아이템 끼리 더한다.
 // 스테이지 2개.

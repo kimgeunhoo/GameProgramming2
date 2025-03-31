@@ -39,6 +39,8 @@ void GameStart()
 		GoToXY(player.pos.X, player.pos.Y);
 		printf("♥");
 
+		COORD returnPos = { player.pos.X, player.pos.Y };
+
 		// 2. Stage 특별한 문자와 값이 같으면 다음 스테이지로 이동하라
 
 		COORD playerStagePos = { player.pos.X - stagePos.X, player.pos.Y - stagePos.Y };
@@ -50,7 +52,7 @@ void GameStart()
 		}
 		if (CanMoveStage(Stage1, playerStagePos, '#')) 
 		{
-
+			player.pos = returnPos;
 		}
 
 		// 3. 플레이어의 정보 UI 출력

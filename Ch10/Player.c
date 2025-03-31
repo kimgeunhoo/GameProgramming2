@@ -109,3 +109,4 @@ void ShowPlayerInfo(Player* playerPtr, COORD uiPos)
 	GoToXY(uiPos.X, uiPos.Y + 3);
 	printf("종족에 해당하는 숫자 출력 (1:HUMAN,2:ORC,3:TROLL) %d", playerPtr->race);
 }
+
