@@ -1,8 +1,6 @@
-1 100 Bear
-2 150 Candy
-3 2500 EldRich
-4 3000 BlueEyes
-5 2500 StarDust
-6 3300 Demonsmith
-7 3000 Earth-Machine
-
+1 100 Alice
+2 350 bully
+3 150 root
+4 230 cock
+5 234 buckshot
+6 100 shot

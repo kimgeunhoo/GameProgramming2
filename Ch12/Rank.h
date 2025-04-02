@@ -23,4 +23,10 @@ void PrintRanking(Rank rank[], int count); // count 수만큼 랭킹을 출력하는 함수
 
 void AddRank(Rank rank[], int* order, const char* name, int score);
 
+void AddRankData(Rank rank[], int* order);
+
+void DeleteRankData(Rank rank[], int* order, int index);
+
+int FindMaxIndex(Rank rank[], int size);
+
 // scanf 숫자를 지정해준다. 1번 랭킹 등록, 2번 랭킹 보기, 3번 프로그램 종료
