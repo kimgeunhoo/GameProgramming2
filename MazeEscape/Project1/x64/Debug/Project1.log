@@ -1,0 +1,8 @@
+﻿  IntroMenu.c
+C:\Users\bungj\Desktop\GameProgramming2\MazeEscape\Project1\border.h(6,1): warning C4005: 'HEIGHT': 매크로 재정의
+C:\Users\bungj\Desktop\GameProgramming2\MazeEscape\Project1\IntroMenu.h(8): message : 'HEIGHT'의 이전 정의를 참조하십시오.
+  border.c
+  main.c
+C:\Users\bungj\Desktop\GameProgramming2\MazeEscape\Project1\main.c(4,11): warning C4013: 'IntroMenu'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  코드를 생성하고 있습니다...
+  Project1.vcxproj -> C:\Users\bungj\Desktop\GameProgramming2\MazeEscape\Project1\x64\Debug\Project1.exe
