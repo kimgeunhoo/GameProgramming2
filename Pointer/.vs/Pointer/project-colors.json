@@ -55,7 +55,22 @@
       "ProjectGuid": "f59ae2e0-a3d0-4370-9245-1680452ea4f9",
       "DisplayName": "Ch10",
       "ColorIndex": 10
+    },
+    "4c41d192-10fd-46d9-b6d6-f250323c0eab": {
+      "ProjectGuid": "4c41d192-10fd-46d9-b6d6-f250323c0eab",
+      "DisplayName": "Ch12",
+      "ColorIndex": 11
+    },
+    "3314a9e0-687e-4555-bb6a-39b10f3e51e3": {
+      "ProjectGuid": "3314a9e0-687e-4555-bb6a-39b10f3e51e3",
+      "DisplayName": "Ch11",
+      "ColorIndex": 12
+    },
+    "530806ad-41e6-4802-9f27-246cf5785249": {
+      "ProjectGuid": "530806ad-41e6-4802-9f27-246cf5785249",
+      "DisplayName": "Ch13",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 11
+  "NextColorIndex": 14
 }
